@@ -1,0 +1,33 @@
+{
+  "name": "terminal-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./src/server/server.ts",
+    "dev": "ts-node-dev --poll --no-notify ./src/server/server.ts",
+    "client": "ts-node ./src/client/client.ts",
+    "client-dev": "ts-node-dev --poll --no-notify ./src/client/client.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/config": "0.0.36",
+    "@types/node": "^14.11.5",
+    "@types/socket.io": "^2.1.11",
+    "@types/socket.io-client": "^1.4.34",
+    "chalk": "^4.1.0",
+    "config": "^3.3.2",
+    "fast-csv": "^4.3.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.63"
+  }
+}
